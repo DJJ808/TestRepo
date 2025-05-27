@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>
+			Photo Sphere Gallery
+		</title>
+		<h1>
+			Google Maps Hunter
+		</h1>
+		<p class="photo-gallery-paragraph"> A collection of the best photo spheres from google maps. Spend to much time on google maps looking around so I thought I'd collect the best ones I find into a website. Also works nicely as a little coding exercise. Enjoy. </p>
+		<style>
+		.gallery-container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 20px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		gap: 20px;
+		}
+
+		.sphere-box {
+		background-color: #fff;
+		border-radius: 8px;
+		box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+		overflow: hidden;
+		}
+
+		.sphere-content {
+		position: relative;
+		padding-bottom: 75%; /* Aspect ratio 4:3 */
+		}
+
+		.sphere-content iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border: none;
+		}
+
+		@media (max-width: 768px) {
+		.gallery-container {
+		  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		}
+		}
+		.photo-gallery-paragraph {
+		    max-width: 1200px;
+		    margin-left: auto;
+		    margin-right: auto;
+		    box-sizing: border-box;
+		}
+		h1 {
+			text-align: center;
+			font-family: helvetica, sans-serif;
+		}
+		h2 {
+			text-align: center;
+			font-family: helvetica, sans-serif;
+		}
+		</style>
+	</head>
+	<h2>
+		Picks of the Week
+	</h2>
+	<body>
+		<div class="gallery-container">
+			<!-- First Photo Sphere -->
+			<div class="sphere-box">
+				<div class="sphere-content">
+					<iframe src="https://www.google.com/maps/embed?pb=!4v1747180727454!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ2s3SmpLLXdF!2m2!1d51.61226331468315!2d-3.930098316630011!3f197.55846459956908!4f-5.363263563211575!5f0.4000000000000002" width="100" height="100" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div><!-- Second Photo Sphere -->
+			<div class="sphere-box">
+				<div class="sphere-content">
+					<!-- Replace with your second Photo Sphere iframe src -->
+					<iframe src="https://www.google.com/maps/embed?pb=!4v1747182803769!6m8!1m7!1sCAoSFENJSE0wb2dLRUlDQWdJQ3Q2Y3dC!2m2!1d53.46310617448554!2d-2.291251520613387!3f123.48441207040426!4f-11.057013559146398!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div><!-- Third Photo Sphere -->
+			<div class="sphere-box">
+				<div class="sphere-content">
+					<iframe src="https://www.google.com/maps/embed?pb=!4v1747182992335!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ3F3Y1RzM1FF!2m2!1d50.26898668146058!2d7.842889994950166!3f34.32285014834231!4f-11.426276910188662!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div><!-- Fourth Photo Sphere -->
+			<div class="sphere-box">
+				<div class="sphere-content">
+					<iframe src="https://www.google.com/maps/embed?pb=!4v1747212254337!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRGMtdERXV0E.!2m2!1d56.17307760771319!2d9.583056670941083!3f197.55159602868497!4f-6.437461447631392!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div><!-- -->
+			<div class="sphere-box">
+				<div class="sphere-content">
+					<iframe src="https://www.google.com/maps/embed?pb=!4v1747275920173!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJQ01uTVRsVGc.!2m2!1d47.56749897443022!2d-52.69653268366988!3f239.18117336369866!4f-9.130710641215316!5f0.4000000000000002" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div><!-- -->
+			<div class="sphere-box">
+				<div class="sphere-content">
+					<iframe src="https://www.google.com/maps/embed?pb=!4v1747285664841!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJQ1V3WmZ4U2c.!2m2!1d52.103403026512!2d-10.46709827600441!3f260.8582676238676!4f-12.614561187461518!5f1.149960258875495" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!4v1747788586978!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRHVvZGVibUFF!2m2!1d55.38200137436527!2d-7.373387809700199!3f67.76946648692633!4f-44.87327873517815!5f0.4000000000000002" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
